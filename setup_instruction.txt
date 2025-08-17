@@ -1,0 +1,12 @@
+Setup Instructions
+
+1. Create the project directory:
+   mkdir language_audiobook_translator
+   cd language_audiobook_translator
+
+2. Create all the Python files with the content provided above
+   Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the application:
+   streamlit run app.py

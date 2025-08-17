@@ -1,0 +1,47 @@
+File Descriptions
+app.py (Main Application)
+
+Entry point for the Streamlit application
+Orchestrates the entire workflow
+Handles the main processing loop
+Imports and uses functions from all other modules
+
+config.py (Configuration)
+
+Contains all configuration constants
+Language mappings
+Audio settings
+Supported file formats
+Page configuration settings
+
+audio_processor.py (Audio Processing)
+
+convert_audio_format() - Converts audio files to WAV format
+get_audio_info() - Extracts audio file information
+Handles FFmpeg errors and provides user-friendly messages
+
+speech_recognition_module.py (Speech Recognition)
+
+init_components() - Initializes speech recognition components
+transcribe_audio() - Converts speech to text
+Handles multiple recognition attempts and error cases
+
+translation_module.py (Translation)
+
+translate_text() - Primary translation function
+translate_text_alternative() - Fallback translation method
+get_fresh_translator() - Creates fresh translator instances
+Supports multiple translation backends
+
+text_to_speech.py (Text-to-Speech)
+
+text_to_speech() - Converts text to audio
+get_audio_download_link() - Creates download links for audio files
+
+ui_components.py (User Interface)
+
+render_header() - App title and description
+render_input_section() - File upload and language selection
+display_*_results() - Various result display functions
+render_sidebar() - Information sidebar
+render_footer() - Footer section
