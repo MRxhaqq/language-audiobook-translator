@@ -12,7 +12,7 @@ Convert audiobooks from one language to another using speech recognition and tra
 
 ## 🚀 Live Demo
 
-[Try the app here!](coming-soon)
+[Try the app here!](https://language-audiobook-translator.up.railway.app/)
 
 ## 💻 How to Run Locally
 
@@ -30,3 +30,4 @@ Convert audiobooks from one language to another using speech recognition and tra
 - PyDub - Audio processing
 
 Made with Python
+
